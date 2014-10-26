@@ -8,8 +8,9 @@ Seems easy... why don't you give closures a try?
 Rules
 =====
 
-You can only use the Ruby core library.
-The only gem you can use, if you need to, is Binding of Caller.
-Your solution should run on MRI and JRuby.
+* Only use the Ruby core library.
+* No monkeypatchin' :)
+* The only gem you can use, if you need to, is Binding of Caller.
+* Solution should run on MRI and JRuby.
 
 Good luck!
