@@ -14,6 +14,7 @@ describe 'The Closure Challenge' do
 
   def evaluate_with_args_and_return a_number, a_block
     return_block = build_return_block_from a_block
+    
     return_block.call a_number
 
     fail "this line shouldn't be executed"
