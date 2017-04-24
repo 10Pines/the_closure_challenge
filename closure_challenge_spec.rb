@@ -6,6 +6,7 @@ describe 'The Closure Challenge' do
 
   def evaluate_and_return a_block
     return_block = build_return_block_from a_block
+    
     return_block.call
 
     fail "this line shouldn't be executed"
